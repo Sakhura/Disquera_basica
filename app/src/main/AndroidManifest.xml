@@ -10,17 +10,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Disquera_basica"
+        android:theme="@style/Theme.Material3.DayNight"
         tools:targetApi="31">
+
+        <!-- LoginActivity es la pantalla inicial -->
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- RegistroActivity -->
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity" />
+
+        <!-- MainActivity (catálogo de discos) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
