@@ -1,6 +1,9 @@
+// Archivo: app/src/main/java/com/sakhura/disquera_basica/model/Carrito.kt
+
 package com.sakhura.disquera_basica.model
 
 import java.util.Date
+
 // Representa un item en el carrito
 data class ItemCarrito(
     val disco: Disco,

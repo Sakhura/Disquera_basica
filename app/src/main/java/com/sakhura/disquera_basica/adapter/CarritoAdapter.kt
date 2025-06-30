@@ -1,3 +1,5 @@
+// Archivo: app/src/main/java/com/sakhura/disquera_basica/adapter/CarritoAdapter.kt
+
 package com.sakhura.disquera_basica.adapter
 
 import android.view.LayoutInflater
@@ -6,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.sakhura.disquera_basica.model.ItemCarrito
 import com.sakhura.disquera_basica.R
+import com.sakhura.disquera_basica.model.ItemCarrito
 
 class CarritoAdapter(
     private var items: List<ItemCarrito>,

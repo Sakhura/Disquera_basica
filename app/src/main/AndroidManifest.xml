@@ -34,6 +34,12 @@
             android:name=".MainActivity"
             android:exported="false" />
 
+        <!-- CarritoActivity (carrito de compras) -->
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
     </application>
 
 </manifest>
